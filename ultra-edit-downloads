@@ -70,9 +70,7 @@
     .top>a{
       text-decoration: none;
     }
-    .top>a:hover{
-      background-color: rgb(64, 168, 238);
-    }
+
     p{
       display: flex;
       justify-content: center;
