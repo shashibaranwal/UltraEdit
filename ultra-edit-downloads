@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Download UltraEdit text editor for windows</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      border: 1px solid whitesmoke;
+      justify-self: center;
+      height: 110px;
+      width: 100%;
+      position: sticky;
+    }
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+      justify-content: space-around;
+      align-items: self-end;
+    }
+    .logo {
+      width: 170px;
+      margin-left: 5vw;
+    }
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+    }
+    ul li a {
+      text-decoration: none;
+      font-family: "segoe UI", sans-serif;
+      /* font-weight: bold; */
+      color: black;
+    }
+    .translate-icon {
+      margin: 0;
+      width: 20px;
+    }
+
+    #main {
+      display: grid;
+      justify-content: center;
+      padding: 30px;
+    }
+    .container {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      align-items: center;
+    }
+    h3 {
+      text-wrap: wrap;
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      padding-bottom: 10px;
+    }
+    .top {
+      display: flex;
+      justify-content: center;
+      align-items: first baseline;
+    }
+    .top>a{
+      text-decoration: none;
+    }
+    .top>a:hover{
+      background-color: rgb(64, 168, 238);
+    }
+    p{
+      display: flex;
+      justify-content: center;
+      width: 300px;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      font-size: large;
+      color: rgb(252, 247, 240);
+      background-color: rgb(0, 182, 209);
+      padding: 12px;
+      border-radius: 4px;
+      margin-bottom: 40px;
+      margin-top: 15px;
+    }
+
+    h1 {
+      font-family: "PT Sans", sans-serif;
+      font-size: 1.2cm;
+      font-weight: 400;
+      padding: 25px;
+    }
+    h2 {
+      font-family: "PT Sans", sans-serif;
+      font-size: 0.6cm;
+      font-weight: 400;
+      padding: 25px;
+      width: 70vw;
+      text-align: center;
+    }
+  </style>
+  <style>
+    .boxs {
+      margin-top: 40px;
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      flex-wrap: wrap;
+      flex-flow: row wrap;
+      justify-content: center;
+      width: 90vw;
+      height: 100%;
+      padding: 20px;
+      gap: 30px;
+      row-gap: 30px;
+    }
+    .Box {
+      background-color: rgb(249, 249, 249);
+      height: 150px;
+      width: 300px;
+      display: grid;
+      row-gap: 0px;
+      column-gap: 20px;
+      justify-content: center;
+      align-items: center;
+      grid-template-areas:
+        "nav nav"
+        "side article";
+    }
+    .item {
+      height: 55px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .language {
+      grid-area: nav;
+      font-family: poppins;
+      font-size: larger;
+      font-weight: bold;
+    }
+    .D32 {
+      grid-area: side;
+    }
+    .D64 {
+      grid-area: article;
+    }
+    .D32 a {
+      text-decoration: none;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      font-size: small;
+      color: antiquewhite;
+      background-color: rgb(0, 182, 209);
+      padding: 10px;
+      border-radius: 4px;
+    }
+    .D64 a {
+      text-decoration: none;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      font-size: small;
+      color: antiquewhite;
+      background-color: rgb(92, 184, 92);
+      padding: 10px;
+      border-radius: 4px;
+    }
+  </style>
+  <body>
+    <header>
+      <div class="nav">
+        <img class="logo" src="ultra-edit.png" alt="image" />
+        <div class="list">
+          <ul>
+            <li><a href="">Products</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Resources</a></li>
+            <li><a href="">About us</a></li>
+            <li>
+              <a href=""><img class="translate-icon" src="https://th.bing.com/th/id/R.ba646c1728313420dc913f46967e720c?rik=Y1LBJZt3UKXCCA&pid=ImgRaw&r=0" alt=""/></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main id="main">
+      <div class="top">
+        <h1>Download <b>UltraEdit</b> for Windows</h1>
+        <img src="Reviews.png" height="30px" alt="reviews" />
+      </div>
+      <div class="top">
+        <h2>
+          Download and try UltraEdit before you buy it! This download includes
+          the full Windows version of the text editor.
+        </h2>
+      </div>
+      <span class="top"><a href=""><p>DOWNLOAD MAC OR LINUS VERSION</p></a></span>
+      <div class="container">
+        <img src="ultra-edit2.png" width="60px" alt="image" />
+        <h3>
+          Download UltraEdit &nbsp;<small>v2023.2(released 12/15/2023)</small>
+        </h3>
+      </div>
+      <div class="boxs">
+        <div class="Box English">
+          <div class="item language">English</div>
+          <div class="item D32">
+            <a href="Downloads/ue_english_32.exe">Download 32-bit</a>
+          </div>
+          <div class="item D64">
+            <a href="Downloads/ue_english_64.exe">Download 64-bit</a>
+          </div>
+        </div>
+        <div class="Box German">
+          <div class="item language">Germany</div>
+          <div class="item D32">
+            <a href="Downloads/ue_german_32.exe">Download 32-bit</a>
+          </div>
+          <div class="item D64">
+            <a href="Downloads/ue_german_64.exe">Download 64-bit</a>
+          </div>
+        </div>
+        <div class="Box Italian">
+          <div class="item language">Italian</div>
+          <div class="item D32">
+            <a href="Downloads/ue_italian_32.exe">Download 32-bit</a>
+          </div>
+          <div class="item D64">
+            <a href="Downloads/ue_italian_64.exe">Download 64-bit</a>
+          </div>
+        </div>
+        <div class="Box Spanish">
+          <div class="item language">Spanish</div>
+          <div class="item D32">
+            <a href="Downloads/ue_spanish_32.exe">Download 32-bit</a>
+          </div>
+          <div class="item D64">
+            <a href="Downloads/ue_spanish_64.exe">Download 64-bit</a>
+          </div>
+        </div>
+        <div class="Box French">
+          <div class="item language">French</div>
+          <div class="item D32">
+            <a href="Downloads/ue_french_32.exe">Download 32-bit</a>
+          </div>
+          <div class="item D64">
+            <a href="Downloads/ue_french_64.exe">Download 64-bit</a>
+          </div>
+        </div>
+        <div class="Box Brazilian">
+          <div class="item language">Brazilian Portuguese</div>
+          <div class="item D32">
+            <a href="Downloads/ue_portuguese_32.exe">Download 32-bit</a>
+          </div>
+          <div class="item D64">
+            <a href="Downloads/ue_portuguese_64.exe">Download 64-bit</a>
+          </div>
+        </div>
+        <div class="Box Japanese">
+          <div class="item language">Japanese</div>
+          <div class="item D32">
+            <a href="Downloads/ue_japanese_32.exe">Download 32-bit</a>
+          </div>
+          <div class="item D64">
+            <a href="Downloads/ue_japanese_64.exe">Download 64-bit</a>
+          </div>
+        </div>
+        <div class="Box Korean">
+          <div class="item language">Korean</div>
+          <div class="item D32">
+            <a href="Downloads/ue_korean_32.exe">Download 32-bit</a>
+          </div>
+          <div class="item D64">
+            <a href="Downloads/ue_korean_64.exe">Download 64-bit</a>
+          </div>
+        </div>
+        <div class="Box Chinese">
+          <div class="item language">Chinese</div>
+          <div class="item D32">
+            <a href="Downloads/ue_chinese_32.exe">Download 32-bit</a>
+          </div>
+          <div class="item D64">
+            <a href="Downloads/ue_chinese_64.exe">Download 64-bit</a>
+          </div>
+        </div>
+        <div class="Box Tchinese">
+          <div class="item language">Traditional Chinese</div>
+          <div class="item D32">
+            <a href="Downloads/ue_chinese_traditional_32.exe">Download 32-bit</a>
+          </div>
+          <div class="item D64">
+            <a href="Downloads/ue_chinese_traditional_64.exe">Download 64-bit</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      
+    </footer>
+  </body>
+</html>
